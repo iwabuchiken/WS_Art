@@ -4,4 +4,7 @@ taskkill /f /im gimp-2.8.exe
 
 taskkill /f /im wish.exe
 
+taskkill /f /im blender.exe
+taskkill /f /im blender-app.exe
+
 exit
