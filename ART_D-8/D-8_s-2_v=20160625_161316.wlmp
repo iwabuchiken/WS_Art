@@ -2,13 +2,13 @@
 <Project name="D-8_s-2_v=20160625_161316" themeId="0" version="65538" templateID="SimpleProjectTemplate">
   <MediaItems>
     <MediaItem id="1" filePath="C:\WORKS\WS\WS_Art\ART_D-8\480px-Japanese_Crest_mitu_Tomoe_1.svg.png" arWidth="480" arHeight="480" duration="0" songTitle="" songArtist="" songAlbum="" />
-    <MediaItem id="2" filePath="C:\WORKS\WS\WS_Art\ART_D-8\sn=29_u=_f=_i=_20160623_163938.wav" arWidth="0" arHeight="0" duration="230.5857369" songTitle="" songArtist="" songAlbum="" />
     <MediaItem id="3" filePath="C:\WORKS\WS\WS_Art\ART_D-8\art_sn=13-1_D-8_s-1~1.L-1.jpg" arWidth="480" arHeight="480" duration="0" songTitle="" songArtist="" songAlbum="" />
     <MediaItem id="4" filePath="C:\WORKS\WS\WS_Art\ART_D-8\D-8_s-2#1.id=1_pale-blue.jpg" arWidth="480" arHeight="480" duration="0" songTitle="" songArtist="" songAlbum="" />
     <MediaItem id="5" filePath="C:\WORKS\WS\WS_Art\ART_D-8\D-8_s-2#1.id=2_L-1_pale-yellow.jpg" arWidth="480" arHeight="480" duration="0" songTitle="" songArtist="" songAlbum="" />
     <MediaItem id="6" filePath="C:\WORKS\WS\WS_Art\ART_D-8\D-8_s-2#1.id=3_L-3_pale-green.jpg" arWidth="480" arHeight="480" duration="0" songTitle="" songArtist="" songAlbum="" />
     <MediaItem id="7" filePath="C:\WORKS\WS\WS_Art\ART_D-8\D-8_s-2#1.id=4_L-4_pale-red.jpg" arWidth="480" arHeight="480" duration="0" songTitle="" songArtist="" songAlbum="" />
     <MediaItem id="8" filePath="C:\WORKS\WS\WS_Art\ART_D-8\D-8_s-2#1.id=5_L-7_4-threesomes-white.jpg" arWidth="480" arHeight="480" duration="0" songTitle="" songArtist="" songAlbum="" />
+    <MediaItem id="9" filePath="C:\WORKS\WS\WS_Art\ART_D-8\sn=29_u=_f=_i=_20160623_163938.mp3" arWidth="0" arHeight="0" duration="230.60900000000001" songTitle="" songArtist="" songAlbum="" />
   </MediaItems>
   <Extents>
     <ImageClip extentID="17" gapBefore="0" mediaItemID="1" duration="3.2999999999999998">
@@ -67,14 +67,6 @@
         <BoundPropertyInt Name="rotateStepNinety" Value="0" />
       </BoundProperties>
     </ImageClip>
-    <AudioClip extentID="6" gapBefore="0" mediaItemID="2" inTime="0" outTime="12.006250298022708" speed="1">
-      <Effects />
-      <Transitions />
-      <BoundProperties>
-        <BoundPropertyBool Name="Mute" Value="false" />
-        <BoundPropertyFloat Name="Volume" Value="1" />
-      </BoundProperties>
-    </AudioClip>
     <ImageClip extentID="24" gapBefore="0" mediaItemID="7" duration="3">
       <Effects />
       <Transitions />
@@ -82,7 +74,7 @@
         <BoundPropertyInt Name="rotateStepNinety" Value="0" />
       </BoundProperties>
     </ImageClip>
-    <AudioClip extentID="7" gapBefore="0" mediaItemID="2" inTime="12.006250298022708" outTime="230.5857369" speed="1">
+    <AudioClip extentID="25" gapBefore="0" mediaItemID="9" inTime="0" outTime="0" speed="1">
       <Effects />
       <Transitions />
       <BoundProperties>
@@ -175,8 +167,7 @@
       <Transitions />
       <BoundProperties />
       <ExtentRefs>
-        <ExtentRef id="6" />
-        <ExtentRef id="7" />
+        <ExtentRef id="25" />
       </ExtentRefs>
     </ExtentSelector>
     <ExtentSelector extentID="3" gapBefore="0" primaryTrack="false">
