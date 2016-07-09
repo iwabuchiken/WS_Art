@@ -1,0 +1,7 @@
+0,100000	0,900000	part 1
+0,400000	0,871346	highlight in part 1
+0,966796	1,432578	down in part 1
+1,307196	1,807196	some instantaneous event
+1,532578	1,712881	check for overwrite
+3,255000	3,355000	check for minutes
+3,050000	3,749000	check for hours
