@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Walking Away-SoundBible.com-227212748_data" version="1.3.0" audacityversion="2.1.0" sel0="0.8811578947" sel1="0.8811578947" vpos="0" h="0.0000000000" zoom="74.9014454665" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags>
+		<tag name="GENRE" value="Sound Clip"/>
+		<tag name="TITLE" value="Footsteps Sound FX"/>
+		<tag name="ARTIST" value="SoundBible.com"/>
+	</tags>
+	<wavetrack name="Walking Away-SoundBible.com-227212748" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="309695">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d42.au" len="154847" min="-0.431061" max="0.542786" rms="0.020849"/>
+				</waveblock>
+				<waveblock start="154847">
+					<simpleblockfile filename="e0000ce0.au" len="154848" min="-0.306244" max="0.448242" rms="0.012875"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="1.441894736842" val="0.625000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Walking Away-SoundBible.com-227212748" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="309695">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000c82.au" len="154847" min="-0.430817" max="0.541687" rms="0.020863"/>
+				</waveblock>
+				<waveblock start="154847">
+					<simpleblockfile filename="e0000291.au" len="154848" min="-0.304962" max="0.448303" rms="0.012876"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="1.441894736842" val="0.625000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="ラベルトラック" numlabels="9" height="73" minimized="0" isSelected="0">
+		<label t="0.76100000" t1="0.76100000" title="step-1"/>
+		<label t="1.48194737" t1="1.48194737" title="s-2"/>
+		<label t="2.24294737" t1="2.24294737" title="s-3"/>
+		<label t="2.97724561" t1="2.97724561" title="s-4"/>
+		<label t="3.69819298" t1="3.69819298" title="s-5"/>
+		<label t="4.37908772" t1="4.37908772" title="s-6"/>
+		<label t="5.11338596" t1="5.11338596" title="s-7"/>
+		<label t="5.84768421" t1="5.84768421" title="s-8"/>
+		<label t="6.59533333" t1="6.59533333" title="s-9"/>
+	</labeltrack>
+</project>
