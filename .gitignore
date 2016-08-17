@@ -118,3 +118,12 @@ ART_D-11/*/*.avi
 ART_D-11/*/*.wav
 ART_D-11/*/*.mp3
 #ART_D-11/*/*.mp4
+
+ART_D-*/*/*.mp4
+ART_D-*/*/*.gif
+ART_D-*/*/*.jpg
+ART_D-*/*/*.png
+ART_D-*/*/*.wmv
+ART_D-*/*/*.avi
+ART_D-*/*/*.wav
+ART_D-*/*/*.mp3
