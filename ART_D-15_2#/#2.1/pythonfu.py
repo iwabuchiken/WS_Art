@@ -46,7 +46,8 @@ for x in (0, SIZE/2-RADIO, SIZE-2*RADIO):
 	for y in (0, SIZE/2-RADIO, SIZE-2*RADIO):
 		
 		#test
-		set_color(0,255,0,1.0)  #
+#		set_color(0,255,0,1.0)  #
+		pdb.gimp_context_set_foreground((255, 255, 255))
 		
 		#next call was available on 2.6, not on 2.8
 		#pdb.gimp_image_select_ellipse(img, gimpfu.CHANNEL_OP_REPLACE, 
