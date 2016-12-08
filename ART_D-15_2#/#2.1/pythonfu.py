@@ -1,3 +1,4 @@
+
 import gimpfu #access constants
 
 def set_color(r, g, b, a):
@@ -54,7 +55,7 @@ for x in (0, SIZE/2-RADIO, SIZE-2*RADIO):
 		#                              x, y, RADIO*2, RADIO*2)
 		pdb.gimp_ellipse_select(img, x, y, RADIO*2, RADIO*2, 
 			gimpfu.CHANNEL_OP_REPLACE, True, False, 0)
-#		pdb.gimp_edit_cut(drw)
+		pdb.gimp_edit_cut(drw)
 
 #test
 #pdb.gimp_ellipse_select(img, 100, 100, RADIO*2, RADIO*2, 
@@ -67,3 +68,4 @@ pdb.gimp_selection_none(img)
 
 #and display the image
 display=pdb.gimp_display_new(img)
+
