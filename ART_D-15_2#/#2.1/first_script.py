@@ -1,5 +1,16 @@
+
+# -*- coding: utf-8 -*-	#ref http://stackoverflow.com/questions/15092437/python-encoding-utf-8
+
+'''
+	source: http://qiita.com/dhomma/items/f33ecd1c4d4c6ece7685
+	
+	2016/12/08 13:17:54
+'''
+
 #ref http://stackoverflow.com/questions/3996904/generate-random-integers-between-0-and-9
 from random import randint
+
+#test
 
 # Python-Fu のサンプル・スクリプト
 # GIMP の Python-Fu コンソールにコピペして実行してください
@@ -19,22 +30,22 @@ def create_image(width, height):
 def add_layer(image, name):
 	# レイヤーの作成に必要なパラメータ
 	width   = image.width
-  height  = image.height
-  type    = RGB_IMAGE
-  opacity = 100
-  mode    = NORMAL_MODE
-  #
-  # パラメータをもとにレイヤーを作成
-  layer = gimp.Layer(image, name, width, height, type, opacity, mode)
-  #
-  # レイヤーを背景色で塗りつぶす（GIMP のデフォルトの挙動に合わせています）
-  layer.fill(1)
-  #
-  # 画像データの 0 番目の位置にレイヤーを挿入する
-  position = 0
-  image.add_layer(layer, position)
-  #
-  return layer
+	height  = image.height
+	type    = RGB_IMAGE
+	opacity = 100
+	mode    = NORMAL_MODE
+	#
+	# パラメータをもとにレイヤーを作成
+	layer = gimp.Layer(image, name, width, height, type, opacity, mode)
+	#
+	# レイヤーを背景色で塗りつぶす（GIMP のデフォルトの挙動に合わせています）
+	layer.fill(1)
+	#
+	# 画像データの 0 番目の位置にレイヤーを挿入する
+	position = 0
+	image.add_layer(layer, position)
+	#
+	return layer
 
 # ペンシルツールで線を描く
 ## 配列に格納した座標列を結ぶ線を描画領域にペンシルツールで描く
@@ -53,7 +64,7 @@ def draw_pencil_lines(drawable, lines):
 ### y2 : 右下の Y 座標
 def draw_rect(drawable, x1, y1, x2, y2):
 	lines = [x1, y1, x2, y1, x2, y2, x1, y2, x1, y1]
-  draw_pencil_lines(drawable, lines)
+	draw_pencil_lines(drawable, lines)
 
 # エアブラシで線を描く
 ## 配列に格納した座標列を結ぶ線を描画領域にエアブラシで描く
@@ -73,13 +84,13 @@ def draw_airbrush_lines(drawable, pressure, lines):
 ### str : 描画する文字列
 def draw_text(drawable, x, y, size, str):
 	image = drawable.image
-  border = -1
-  antialias = True
-  size_type = PIXELS
-  fontname = '*'
-  floating_sel = pdb.gimp_text_fontname(image, drawable, x, y, str, border,
-  	antialias, size, size_type, fontname)
-  pdb.gimp_floating_sel_anchor(floating_sel)
+	border = -1
+	antialias = True
+	size_type = PIXELS
+	fontname = '*'
+	floating_sel = pdb.gimp_text_fontname(image, drawable, x, y, str, border,
+		antialias, size, size_type, fontname)
+	pdb.gimp_floating_sel_anchor(floating_sel)
 
 # 描画する色を変更する
 ## パレットの前景色を変更して描画色を設定する
@@ -89,7 +100,7 @@ def draw_text(drawable, x, y, size, str):
 ### a : 透明度 (0-1.0)
 def set_color(r, g, b, a):
 	color = (r, g, b, a)
-  pdb.gimp_context_set_foreground(color)
+	pdb.gimp_context_set_foreground(color)
 
 # 描画する線の太さを変える
 ## ブラシのサイズを変更して線の太さを設定する
