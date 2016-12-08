@@ -11,6 +11,7 @@
 from random import randint
 
 #test
+from gimpfu import *
 
 # Python-Fu のサンプル・スクリプト
 # GIMP の Python-Fu コンソールにコピペして実行してください

@@ -1,5 +1,10 @@
+# -*- coding: utf-8 -*-	#ref http://stackoverflow.com/questions/15092437/python-encoding-utf-8
 
 import gimpfu #access constants
+
+#test
+from gimpfu import *
+
 
 def set_color(r, g, b, a):
 	color = (r, g, b, a)
@@ -72,31 +77,9 @@ pdb.gimp_edit_cut(drw)
 
 #remove any selection
 pdb.gimp_selection_none(img)
-
+	
 #and display the image
 display=pdb.gimp_display_new(img)
 
 
 
-#ref http://stackoverflow.com/questions/675442/comment-out-a-python-code-block
-'''
-os.chdir('C:\\WORKS_2\\WS\\WS_Art\\ART_D-15_2#\\#2.1')
-os.getcwd()
-
-#['first_script.py', 'pythonfu.py']
-
-import first_script
-
-import sys
-sys.path
-
-# add a path to the import paths
-#ref http://stackoverflow.com/questions/279237/import-a-module-from-a-relative-path
-fpath = 'C:\\WORKS_2\\WS\\WS_Art\\ART_D-15_2#\\#2.1'
-
-#if cmd_folder not in sys.path:
-if fpath not in sys.path:
-	sys.path.insert(0, fpath)
-
-
-'''
