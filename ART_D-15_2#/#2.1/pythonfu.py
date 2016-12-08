@@ -1,4 +1,10 @@
 # -*- coding: utf-8 -*-	#ref http://stackoverflow.com/questions/15092437/python-encoding-utf-8
+'''
+	pythonfu.py
+	
+	2016/12/08 13:59:10
+	
+'''
 
 import gimpfu #access constants
 
