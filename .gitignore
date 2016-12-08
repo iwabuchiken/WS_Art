@@ -127,3 +127,6 @@ ART_D-*/*/*.wmv
 ART_D-*/*/*.avi
 ART_D-*/*/*.wav
 ART_D-*/*/*.mp3
+
+#"GIMP\346\225\231\346\234\254/*"
+GIMP_kyouhon/*

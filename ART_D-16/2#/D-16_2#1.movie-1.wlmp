@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="D-16_2#1.movie-1" themeId="0" version="65538" templateID="SimpleProjectTemplate">
+  <MediaItems>
+    <MediaItem id="1" filePath="C:\WORKS_2\WS\WS_Art\ART_D-16\2#\2016-11-12_06-59-29_000.jpg" arWidth="3024" arHeight="4032" duration="0" songTitle="" songArtist="" songAlbum="" />
+    <MediaItem id="2" filePath="C:\WORKS_2\WS\WS_Music\domino\90-99\sn=90_i=piano_u=_f=_k=Am-free__20161110_212547.mp3" arWidth="0" arHeight="0" duration="220.84800000000001" songTitle="" songArtist="" songAlbum="" />
+    <MediaItem id="3" filePath="C:\WORKS_2\WS\WS_Art\ART_D-16\2#\D-16_2#1_1_.1-posterization.jpg" arWidth="3024" arHeight="4032" duration="0" songTitle="" songArtist="" songAlbum="" />
+    <MediaItem id="4" filePath="C:\WORKS_2\WS\WS_Art\ART_D-16\2#\D-16_2#1_1_.2-newspaper.jpg" arWidth="768" arHeight="1024" duration="0" songTitle="" songArtist="" songAlbum="" />
+  </MediaItems>
+  <Extents>
+    <AudioClip extentID="17" gapBefore="0" mediaItemID="2" inTime="0" outTime="0" speed="1">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyBool Name="Mute" Value="false" />
+        <BoundPropertyFloat Name="Volume" Value="1" />
+      </BoundProperties>
+    </AudioClip>
+    <ImageClip extentID="9" gapBefore="0" mediaItemID="1" duration="5.3499999999999996">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="1" />
+      </BoundProperties>
+    </ImageClip>
+    <ImageClip extentID="14" gapBefore="0" mediaItemID="4" duration="7">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <ImageClip extentID="16" gapBefore="0" mediaItemID="3" duration="2.1000000000000001">
+      <Effects />
+      <Transitions />
+      <BoundProperties>
+        <BoundPropertyInt Name="rotateStepNinety" Value="0" />
+      </BoundProperties>
+    </ImageClip>
+    <ExtentSelector extentID="1" gapBefore="0" primaryTrack="true">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs>
+        <ExtentRef id="9" />
+        <ExtentRef id="16" />
+        <ExtentRef id="14" />
+      </ExtentRefs>
+    </ExtentSelector>
+    <ExtentSelector extentID="2" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs>
+        <ExtentRef id="17" />
+      </ExtentRefs>
+    </ExtentSelector>
+    <ExtentSelector extentID="3" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs />
+    </ExtentSelector>
+    <ExtentSelector extentID="4" gapBefore="0" primaryTrack="false">
+      <Effects />
+      <Transitions />
+      <BoundProperties />
+      <ExtentRefs />
+    </ExtentSelector>
+  </Extents>
+  <BoundPlaceholders>
+    <BoundPlaceholder placeholderID="SingleExtentView" extentID="0" />
+    <BoundPlaceholder placeholderID="Main" extentID="1" />
+    <BoundPlaceholder placeholderID="SoundTrack" extentID="2" />
+    <BoundPlaceholder placeholderID="Text" extentID="4" />
+    <BoundPlaceholder placeholderID="Narration" extentID="3" />
+  </BoundPlaceholders>
+  <BoundProperties>
+    <BoundPropertyFloatSet Name="AspectRatio">
+      <BoundPropertyFloatElement Value="1.3333332538604736" />
+    </BoundPropertyFloatSet>
+    <BoundPropertyFloat Name="SoundTrackMix" Value="1" />
+  </BoundProperties>
+  <ThemeOperationLog themeID="0">
+    <MonolithicThemeOperations />
+  </ThemeOperationLog>
+</Project>
