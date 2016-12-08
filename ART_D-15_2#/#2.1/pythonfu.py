@@ -1,5 +1,11 @@
 import gimpfu #access constants
 
+def set_color(r, g, b, a):
+	color = (r, g, b, a)
+	pdb.gimp_context_set_foreground(color)
+
+
+
 SIZE=240
 RADIO=24
 
@@ -38,12 +44,22 @@ pdb.gimp_paintbrush_default(drw,len(ctrlPoints),ctrlPoints)
 #a transparent circle means -with an alpha layer-, to select the area and cut it
 for x in (0, SIZE/2-RADIO, SIZE-2*RADIO):
 	for y in (0, SIZE/2-RADIO, SIZE-2*RADIO):
+		
+		#test
+		set_color(0,255,0,1.0)  #
+		
 		#next call was available on 2.6, not on 2.8
 		#pdb.gimp_image_select_ellipse(img, gimpfu.CHANNEL_OP_REPLACE, 
 		#                              x, y, RADIO*2, RADIO*2)
 		pdb.gimp_ellipse_select(img, x, y, RADIO*2, RADIO*2, 
 			gimpfu.CHANNEL_OP_REPLACE, True, False, 0)
-		pdb.gimp_edit_cut(drw)
+#		pdb.gimp_edit_cut(drw)
+
+#test
+#pdb.gimp_ellipse_select(img, 100, 100, RADIO*2, RADIO*2, 
+pdb.gimp_ellipse_select(img, SIZE/2-RADIO-10, SIZE/2-RADIO-10, RADIO*2, RADIO*2, 
+	gimpfu.CHANNEL_OP_REPLACE, True, False, 0)
+pdb.gimp_edit_cut(drw)
 
 #remove any selection
 pdb.gimp_selection_none(img)
