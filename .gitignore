@@ -130,3 +130,16 @@ ART_D-*/*/*.mp3
 
 #"GIMP\346\225\231\346\234\254/*"
 GIMP_kyouhon/*
+
+to_iphone/
+to_iphone/*.mp4
+to_iphone/*.gif
+to_iphone/*.jpg
+to_iphone/*.png
+to_iphone/*.wmv
+to_iphone/*.avi
+to_iphone/*.wav
+to_iphone/*.mp3
+
+
+
