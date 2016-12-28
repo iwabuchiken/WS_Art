@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="D-17_2-1.res-2_data" version="1.3.0" audacityversion="2.1.2" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="1 HOUR Winter Wonderland Zen Music - Meditation, Study, Work, Spa" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1755904">
+				<waveblock start="0">
+					<simpleblockfile filename="e00000d8.au" len="258816" min="-0.914224" max="0.538243" rms="0.177108"/>
+				</waveblock>
+				<waveblock start="258816">
+					<simpleblockfile filename="e00009c1.au" len="262144" min="-0.844134" max="0.642862" rms="0.232644"/>
+				</waveblock>
+				<waveblock start="520960">
+					<simpleblockfile filename="e0000513.au" len="262144" min="-0.942224" max="0.658593" rms="0.238814"/>
+				</waveblock>
+				<waveblock start="783104">
+					<simpleblockfile filename="e00008f0.au" len="262144" min="-0.564727" max="0.48626" rms="0.145896"/>
+				</waveblock>
+				<waveblock start="1045248">
+					<simpleblockfile filename="e0000be4.au" len="262144" min="-0.694383" max="0.574371" rms="0.178601"/>
+				</waveblock>
+				<waveblock start="1307392">
+					<simpleblockfile filename="e0000f58.au" len="262144" min="-0.682279" max="0.7038" rms="0.166947"/>
+				</waveblock>
+				<waveblock start="1569536">
+					<simpleblockfile filename="e000003a.au" len="186368" min="-0.917996" max="0.674603" rms="0.195132"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="1 HOUR Winter Wonderland Zen Music - Meditation, Study, Work, Spa" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1755904">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000338.au" len="258816" min="-0.59788" max="0.54149" rms="0.14829"/>
+				</waveblock>
+				<waveblock start="258816">
+					<simpleblockfile filename="e0000b3a.au" len="262144" min="-0.957767" max="0.671993" rms="0.264602"/>
+				</waveblock>
+				<waveblock start="520960">
+					<simpleblockfile filename="e000028e.au" len="262144" min="-0.734973" max="0.520498" rms="0.199702"/>
+				</waveblock>
+				<waveblock start="783104">
+					<simpleblockfile filename="e0000f9c.au" len="262144" min="-0.693769" max="0.56409" rms="0.206244"/>
+				</waveblock>
+				<waveblock start="1045248">
+					<simpleblockfile filename="e0000413.au" len="262144" min="-0.439762" max="0.434872" rms="0.130305"/>
+				</waveblock>
+				<waveblock start="1307392">
+					<simpleblockfile filename="e0000d93.au" len="262144" min="-0.639633" max="0.563156" rms="0.198421"/>
+				</waveblock>
+				<waveblock start="1569536">
+					<simpleblockfile filename="e000070e.au" len="186368" min="-0.519099" max="0.496792" rms="0.140061"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

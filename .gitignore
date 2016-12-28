@@ -145,5 +145,5 @@ to_iphone/*.mp3
 
 #ART_D-17/1#/processing.1_3_1.hour-winter-music_data/*/*/*.au
 ART_D-17/1#/processing.1_3_1.hour-winter-music_data/
-
-
+ART_D-17/*/*/*_data/
+ART_D-17/*/*/*.mp3
