@@ -4,7 +4,13 @@ taskkill /f /im gimp-2.8.exe
 
 taskkill /f /im wish.exe
 
-taskkill /f /im blender.exe
-taskkill /f /im blender-app.exe
+taskkill /f /im MovieMaker.exe
+
+taskkill /f /im audacity.exe
+
+taskkill /f /im wmplayer.exe
+
+REM taskkill /f /im blender.exe
+REM taskkill /f /im blender-app.exe
 
 exit
