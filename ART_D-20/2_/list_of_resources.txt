@@ -1,0 +1,11 @@
+[images]
+kousou_un03.jpg	http://www.nahaken-okn.ed.jp/naha-c/kumo/kumo.htm	2017/02/17 16:19:29
+
+[audios]
+Deep Sleep Meditation: 1 Hour Sleep Music with Delta Waves, Sleeping Music, Beat Insomnia, ☯190(1時間 リラックスできる睡眠用音楽, 安らぎの音楽, ソフトな音楽, 器楽曲, 眠り用瞑想, ☯190.mp3)	http://www.youtube.com/watch?v=MX6YekfDnKA&list=PLZe1Q2NRG8YX2fqF9SqWDjPad5BXbpmfR&index=23
+
+D-20_2_1.clouds.bgm-1.mp3
+
+[visuals]
+D-20_2_1.bridge.xcf
+
