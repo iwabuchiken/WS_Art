@@ -59,12 +59,53 @@ class Util {
 		$width = count($ary_Data[0]);
 		
 		$tick_Height = 255 / $height;
+		$tick_Width = 255 / $width;
 
 		for ($i = 0; $i < $height; $i++) {
 		
+			// red
 			$ary_Data[$i][0][0] = 255 - $i * $tick_Height;
 			
+			// blue
+			$ary_Data[$i][0][2] = $i * $tick_Height;
+			
 		}//for ($i = 0; $i < $height; $i++)
+		
+		/*******************************
+			Row : 0
+		*******************************/
+		for ($i = 0; $i < $height; $i++) {
+
+			// red
+			$ary_Data[0][$i][0] = 255 - $i * $tick_Height;
+				
+			// green
+			$ary_Data[0][$i][1] = $i * $tick_Height;
+				
+				
+		}//for ($i = 0; $i < $height; $i++)
+		
+		/*******************************
+			Area : [1][1] ~ [last][last]
+		*******************************/
+		for ($i = 1; $i < $height; $i++) {
+			
+			for ($j = 1; $j < $width; $j++) {
+			
+				// red
+				$ary_Data[$i][$j][0] = ($ary_Data[$i][0][0] + $ary_Data[0][$j][0]) / 2;
+				
+				// green
+				$ary_Data[$i][$j][1] = ($ary_Data[$i][0][1] + $ary_Data[0][$j][1]) / 2;
+				
+				// blue
+				$ary_Data[$i][$j][2] = ($ary_Data[$i][0][2] + $ary_Data[0][$j][2]) / 2;
+				
+			}//for ($j = 0; $j < $width; $j++)
+			
+			
+		}//for ($i = 0; $i < $height; $i++) {
+		
 		
 		// return
 		return $ary_Data;

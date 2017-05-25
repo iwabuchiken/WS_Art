@@ -683,11 +683,12 @@ choose dir => ART_D-22
 		$j = 0;		// vertical address
 		
 		$i_max = 20;
+// 		$j_max = 30;
 		$j_max = 20;
 
 		$max_RGB = 255;
 
-		$ary_Data = Util::init_RGB_Values(20, 20);
+		$ary_Data = Util::init_RGB_Values($i_max, $j_max);
 // 		$ary_Data = Util::init_RGB_Values(20, 20);
 
 		// process values
